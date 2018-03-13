@@ -1,0 +1,59 @@
+body{
+  font-family: sans-serif;
+}
+
+.header{
+  display: inline-block;
+  width: 100%;
+}
+
+.header a{
+    margin-left: 30%;
+}
+
+.header2 a{
+    margin-left: 20%;
+}
+
+.error_messages li{
+  font-size: 13pt;
+  color: red;
+}
+
+.one_line{
+  display: inline;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+  /*spaces out table columns across the wrapper width*/
+table{
+  /* border-collapse: collapse; */
+  border: 1px solid black;
+  width: 50%;
+}
+
+.task_table{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.task_table a{
+  margin-left: 10%;
+}
+
+/*zebra striping for table rows*/
+  tbody tr:nth-child(even){
+    background-color: lavender;
+  }
+  tbody tr:nth-child(odd){
+    background-color: lightpink;
+  }
+
+td{
+  padding: 10px 10px 10px 10px;
+}
+
+.update{
+  margin-left: 30%;
+}
